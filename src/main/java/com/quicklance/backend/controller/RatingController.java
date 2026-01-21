@@ -8,7 +8,7 @@ import com.quicklance.backend.repository.RatingRepository;
 @RestController
 @RequestMapping("/api/ratings")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:3000")
+
 public class RatingController {
 
     private final RatingRepository repo;
