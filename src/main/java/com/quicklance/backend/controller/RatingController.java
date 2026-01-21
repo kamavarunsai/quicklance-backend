@@ -8,7 +8,7 @@ import com.quicklance.backend.repository.RatingRepository;
 @RestController
 @RequestMapping("/api/ratings")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "https://quicklancefrontend.vercel.app")
+
 public class RatingController {
 
     private final RatingRepository repo;

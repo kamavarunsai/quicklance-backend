@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/auth")
-@CrossOrigin(origins = "https://quicklance-backend-2.onrender.com")
 public class AuthController {
 
     @Autowired
