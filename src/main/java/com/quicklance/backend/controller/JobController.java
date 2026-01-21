@@ -8,7 +8,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/jobs")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://quicklancefrontend.vercel.app")
 public class JobController {
 
     @Autowired

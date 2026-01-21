@@ -8,7 +8,7 @@ import com.quicklance.backend.repository.FreelancerProfileRepository;
 @RestController
 @RequestMapping("/api/freelancer-profile")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://quicklancefrontend.vercel.app")
 public class FreelancerProfileController {
 
     private final FreelancerProfileRepository repo;

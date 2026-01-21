@@ -10,7 +10,7 @@ import com.quicklance.backend.repository.ChatMessageRepository;
 @RestController
 @RequestMapping("/api/chat")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://quicklance-backend-2.onrender.com")
 public class ChatController {
 
     private final ChatMessageRepository repo;

@@ -14,7 +14,7 @@ import com.quicklance.backend.repository.RatingRepository;
 @RestController
 @RequestMapping("/api/freelancer-analytics")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://quicklancefrontend.vercel.app")
 public class FreelancerAnalyticsController {
 
     private final ApplicationRepository applicationRepo;
